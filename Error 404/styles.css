@@ -30,6 +30,10 @@ body, html {
 
 /*ERROR404*/
 
+.middle{
+  margin-top: 100px;
+  margin-left: 100px;
+}
 .redtext {
   color: #dc3115;
 }
@@ -40,72 +44,18 @@ body, html {
 /*CARDS*/
 
 .cards {
-  justify-content: center;
+  display: flex;
+  justify-content: flex-start;
   flex-wrap: nowrap;
-  display:inline-block;
+  margin-top: 200px;
+}
+.card {
+  margin-left: 100px;
 }
 
 .card-title {
   color: #dc3115;
   font-weight: bold;
-}
-
-#possibilities
-{
-    
-    background-color: #efefef;
-    padding: 60px 0;
-}
-
-#possibilities article
-{
-    width:460px;
-    height: 270px;
-    float: left;
-    border-radius: 10px;
-}
-
-#possibilities article:first-child
-{
-    margin-right: 20px;
-}
-
-.overlay
-{
-    background: rgba(255,255,255, 0.95);
-    height: 100%;
-    width: 190px;
-    padding: 20px;
-    border-radius: 10px 0 0 10px; 
-    text-align: center;
-    box-sizing: border-box;
-}
-
-article h4
-{
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-#possibilities p
-{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.button-2
-{
-    color: #fff;
-    background-color: #ff7a00;
-    padding: 6px 20px;
-    border-radius: 3px;
-}
-.button-2:hover
-{
-    color: #fff;
-    background-color: #02b8dd;
 }
 
 
