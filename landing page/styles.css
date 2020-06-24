@@ -1,0 +1,103 @@
+body {
+  height: 100%;
+
+  background-image: url("backgroung.png");
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.up {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.middle {
+  display: flex;
+}
+
+.middle2 {
+  display: flex;
+  margin-left: 50px;
+
+}
+
+.title {
+  margin-top: 60px;
+  margin-left: 50px;
+  color: #002542;
+  font-weight: bold;
+}
+
+.down {
+  margin-left: 50px;
+  margin-top: px;
+  display: flex;
+}
+
+.textcenter {
+  font-size: 12px;
+  color:#002542
+}
+.textcenter2 {
+  font-size: 12px;
+  color:#dc3115;
+  margin-left: 20px;
+}
+
+.Rectangle-arrondi-1 {
+  width: 500px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: #efeae0;
+  margin-left: 50px;
+  padding: 15px;
+}
+
+.visuel-telephones {
+  width: 249px;
+  height: 455px;
+  object-fit: contain;
+  float: right;
+  position: absolute; /*or fixed*/
+  right: 350px;
+  top: 110px;
+}
+
+.Soyez-informs-de-la-sortie-de-lapplication {
+  width: 395px;
+  height: 22px;
+  font-family: Korolev;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.95;
+  letter-spacing: normal;
+  text-align: left;
+  color: #002542;
+}
+
+.votre-adresse-email {
+  width: 158px;
+  height: 10px;
+  font-family: KorolevRounded;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  text-align: left;
+  color: #002542;
+}
+
+.search{
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-primary {
+  background-color:  #dc3115 !important;
+  font-size: 18px !important;
+}
